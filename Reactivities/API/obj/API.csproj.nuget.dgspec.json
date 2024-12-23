@@ -1,33 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/API/API.csproj": {}
+    "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/API/API.csproj": {
+    "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/API/API.csproj",
+        "projectUniqueName": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/API/API.csproj",
-        "packagesPath": "/home/damk/.nuget/packages/",
-        "outputPath": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/API/obj/",
+        "projectPath": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\markd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/damk/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\markd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Application/Application.csproj": {
-                "projectPath": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Application/Application.csproj"
+              "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Application\\Application.csproj"
               }
             }
           }
@@ -36,6 +43,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -66,37 +78,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Application/Application.csproj": {
+    "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Application/Application.csproj",
+        "projectUniqueName": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Application/Application.csproj",
-        "packagesPath": "/home/damk/.nuget/packages/",
-        "outputPath": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Application/obj/",
+        "projectPath": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\markd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/damk/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\markd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Domain/Domain.csproj": {
-                "projectPath": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Domain/Domain.csproj"
+              "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Domain\\Domain.csproj"
               },
-              "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Persistence/Persistence.csproj": {
-                "projectPath": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Persistence/Persistence.csproj"
+              "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -105,6 +124,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -126,26 +150,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Domain/Domain.csproj": {
+    "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Domain/Domain.csproj",
+        "projectUniqueName": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Domain/Domain.csproj",
-        "packagesPath": "/home/damk/.nuget/packages/",
-        "outputPath": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Domain/obj/",
+        "projectPath": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\markd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/damk/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\markd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -158,6 +189,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -179,34 +215,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Persistence/Persistence.csproj": {
+    "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Persistence/Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Persistence/Persistence.csproj",
-        "packagesPath": "/home/damk/.nuget/packages/",
-        "outputPath": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Persistence/obj/",
+        "projectPath": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\markd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/damk/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\markd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Domain/Domain.csproj": {
-                "projectPath": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Domain/Domain.csproj"
+              "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }
@@ -215,6 +258,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -236,7 +284,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

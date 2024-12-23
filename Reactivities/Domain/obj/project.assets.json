@@ -8,24 +8,32 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/damk/.nuget/packages/": {}
+    "C:\\Users\\markd\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Domain/Domain.csproj",
+      "projectUniqueName": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Domain/Domain.csproj",
-      "packagesPath": "/home/damk/.nuget/packages/",
-      "outputPath": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Domain/obj/",
+      "projectPath": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\markd\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/damk/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\markd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -38,6 +46,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -59,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WHTF+O4JhRWRAbaMquH0CSCi88/uZC3hWq8FbCAYNlmiDr7wPopAc7j5W/xd4XbskBCFqywYZHtX6VgTyCJzRA==",
+  "dgSpecHash": "xt3sShP/JKE=",
   "success": true,
-  "projectFilePath": "/home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Persistence/Persistence.csproj",
+  "projectFilePath": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

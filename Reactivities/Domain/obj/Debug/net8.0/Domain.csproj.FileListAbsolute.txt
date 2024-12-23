@@ -1,0 +1,12 @@
+C:\Users\markd\OneDrive\Documents\GitHub\udemy_dotnet_core_course\Reactivities\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\markd\OneDrive\Documents\GitHub\udemy_dotnet_core_course\Reactivities\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\markd\OneDrive\Documents\GitHub\udemy_dotnet_core_course\Reactivities\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\markd\OneDrive\Documents\GitHub\udemy_dotnet_core_course\Reactivities\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\markd\OneDrive\Documents\GitHub\udemy_dotnet_core_course\Reactivities\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\markd\OneDrive\Documents\GitHub\udemy_dotnet_core_course\Reactivities\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\markd\OneDrive\Documents\GitHub\udemy_dotnet_core_course\Reactivities\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\markd\OneDrive\Documents\GitHub\udemy_dotnet_core_course\Reactivities\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Users\markd\OneDrive\Documents\GitHub\udemy_dotnet_core_course\Reactivities\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\markd\OneDrive\Documents\GitHub\udemy_dotnet_core_course\Reactivities\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\markd\OneDrive\Documents\GitHub\udemy_dotnet_core_course\Reactivities\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\markd\OneDrive\Documents\GitHub\udemy_dotnet_core_course\Reactivities\Domain\obj\Debug\net8.0\ref\Domain.dll
