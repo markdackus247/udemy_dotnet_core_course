@@ -69,5 +69,63 @@ Setting strings to nullable for this project
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  
 
+## Installing EntityFrameworkCore for SQLite
+
+To install EntityFrameworkCore for SQLite in your project, follow these steps:
+
+1. Open a terminal or command prompt.
+2. Navigate to the root directory of your project.
+3. Run the following command to install the necessary NuGet packages:
+
+    ```sh
+    dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+    ```
+
+4. Optionally, you can also install the tools package to enable EF Core commands in the CLI:
+
+    ```sh
+    dotnet add package Microsoft.EntityFrameworkCore.Tools
+    ```
+
+5. After installing the packages, you can start using EntityFrameworkCore with SQLite in your project.
+
+Make sure to update your `DbContext` and configuration settings to use SQLite as the database provider.
+  
+## Installing EntityFrameworkCore.Design
+
+To install the EntityFrameworkCore.Design package in your project, follow these steps:
+
+1. Open a terminal or command prompt.
+2. Navigate to the root directory of your project.
+3. Run the following command to install the necessary NuGet package:
+
+    ```sh
+    dotnet add package Microsoft.EntityFrameworkCore.Design
+    ```
+
+4. This package provides design-time tools for Entity Framework Core, such as the ability to create migrations and scaffold a DbContext.
+
+After installing the package, you can use the design-time tools to manage your database schema and other design-time tasks.
+
+## Creating the Initial EF Core Migration
+
+To create the initial Entity Framework Core migration for your project, follow these steps:
+
+1. Open a terminal or command prompt.
+2. Navigate to the root directory of your project.
+3. Run the following command to create the initial migration:
+
+    ```sh
+    dotnet ef migrations add InitialCreate -s API -p Persistence
+    ```
+
+4. This command will generate a new migration file in the `Migrations` folder of your project. The migration file will contain the necessary code to create the initial database schema based on your `DbContext` and entity classes.
+
+5. After creating the migration, you can apply it to the database by running the following command:
+
+    ```sh
+    dotnet ef database update
+    ```
+
+This will create the database and apply the initial schema defined in the migration file. You can now start using the database with your application.

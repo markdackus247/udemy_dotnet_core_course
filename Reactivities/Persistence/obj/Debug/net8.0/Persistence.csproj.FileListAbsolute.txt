@@ -14,3 +14,5 @@ C:\Users\markd\OneDrive\Documents\GitHub\udemy_dotnet_core_course\Reactivities\P
 C:\Users\markd\OneDrive\Documents\GitHub\udemy_dotnet_core_course\Reactivities\Persistence\obj\Debug\net8.0\refint\Persistence.dll
 C:\Users\markd\OneDrive\Documents\GitHub\udemy_dotnet_core_course\Reactivities\Persistence\obj\Debug\net8.0\Persistence.pdb
 C:\Users\markd\OneDrive\Documents\GitHub\udemy_dotnet_core_course\Reactivities\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+C:\Users\markd\OneDrive\Documents\GitHub\udemy_dotnet_core_course\Reactivities\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
+C:\Users\markd\OneDrive\Documents\GitHub\udemy_dotnet_core_course\Reactivities\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
