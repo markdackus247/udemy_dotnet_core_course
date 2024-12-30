@@ -35,6 +35,9 @@
             "projectReferences": {
               "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Application\\Application.csproj": {
                 "projectPath": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Application\\Application.csproj"
+              },
+              "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\udemy_dotnet_core_course\\Reactivities\\Persistence\\Persistence.csproj"
               }
             }
           }
