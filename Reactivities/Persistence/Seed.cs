@@ -1,11 +1,23 @@
 using Domain;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace Persistence
 {
     public class Seed
     {
+        public static string HashPassword(string password)
+        {
+            using (var sha256 = SHA256.Create())
+            {
+                var hashedBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+                return BitConverter.ToString(hashedBytes).Replace("-", "").ToLower();
+            }
+        }
+
         public static async Task SeedData(DataContext context)
         {
+            if (context.Users.Any()) return;
             if (context.Activities.Any()) return;
             
             var activities = new List<Activity>
@@ -102,8 +114,33 @@ namespace Persistence
                 }
             };
 
+            var users = new List<User>
+            {
+                new User
+                {
+                    username = "markdackus",
+                    email = "m.dackus@vistacollege.nl",
+                    secret = HashPassword("Vrieskist@247"),
+                    active = true,
+                    created = DateTime.UtcNow,
+                    updated = DateTime.UtcNow
+                },
+                new User
+                {
+                    username = "administrator",
+                    email = "administrator@vistacollege.nl",
+                    secret = HashPassword("Vrieskist@247"),
+                    active = true,
+                    created = DateTime.UtcNow,
+                    updated = DateTime.UtcNow
+                }
+            };
+
             await context.Activities.AddRangeAsync(activities);
+            await context.Users.AddRangeAsync(users);
             await context.SaveChangesAsync();
         }
+
+        
     }
 }

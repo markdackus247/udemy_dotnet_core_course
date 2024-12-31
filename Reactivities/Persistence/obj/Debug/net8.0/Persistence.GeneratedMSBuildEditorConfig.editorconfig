@@ -16,6 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Persistence
-build_property.ProjectDir = C:\Users\markd\OneDrive\Documents\GitHub\udemy_dotnet_core_course\Reactivities\Persistence\
+build_property.ProjectDir = /home/damk/Documents/GitHub/udemy_dotnet_core_course/Reactivities/Persistence/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
